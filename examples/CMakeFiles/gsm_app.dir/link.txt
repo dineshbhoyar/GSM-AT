@@ -1,1 +1,0 @@
-/usr/bin/g++   -g3 -gdwarf-2   CMakeFiles/gsm_app.dir/gsm_app.cpp.o  -o gsm_app -lrt -lpthread -lz ../src/libgsm.a 
