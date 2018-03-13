@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgsm.a  CMakeFiles/gsm.dir/deviceOperation.cpp.o CMakeFiles/gsm.dir/at-cmd.cpp.o CMakeFiles/gsm.dir/gsm.cpp.o
+/usr/bin/ranlib libgsm.a
