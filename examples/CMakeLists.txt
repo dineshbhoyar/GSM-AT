@@ -6,5 +6,5 @@ aux_source_directory(. SRC_LIST)
 
 add_executable(${TARGET_NAME} ${SRC_LIST})
 
-set(LIBS -lrt -lpthread -lz ${CMAKE_CURRENT_SOURCE_DIR}/../src/libgsm.a) 
+set(LIBS -lrt -lpthread -lz ${CMAKE_CURRENT_BINARY_DIR}/../src/libgsm.a) 
 target_link_libraries(${TARGET_NAME} ${LIBS} ) 
